@@ -5,8 +5,8 @@ Interface:
 
 Specs:
     1.  Behavior: Method saves players' choices of rock/paper/scissor.
-        Input: 'rock' 'scissor'
-        Output: 'rock' 'scissor'
+        Input: 'rock' 'scissors'
+        Output: 'rock' 'scissors'
 
     2.  Behavior: The method compares rock to scissors and chooses rock.
         Input: 'rock' 'scissors'
