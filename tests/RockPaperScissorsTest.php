@@ -43,7 +43,7 @@
             $result = $test_RockPaperScissors->playGame($player1, $player2);
 
             //Assert
-            $this->assertEquals('rock', $result);
+            $this->assertEquals('Player 1 wins!', $result);
         }
 
         function test_playGame_rockPaper()
@@ -57,7 +57,7 @@
             $result = $test_RockPaperScissors->playGame($player1, $player2);
 
             //Assert
-            $this->assertEquals('paper', $result);
+            $this->assertEquals('Player 2 wins!', $result);
         }
 
         function test_playGame_paperScissors()
@@ -71,7 +71,7 @@
             $result = $test_RockPaperScissors->playGame($player1, $player2);
 
             //Assert
-            $this->assertEquals('scissors', $result);
+            $this->assertEquals('Player 2 wins!', $result);
         }
 
         function test_playGame_draw()
@@ -87,5 +87,7 @@
             //Assert
             $this->assertEquals('Draw. Play again!', $result);
         }
+
     }
+
 ?>
