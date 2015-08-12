@@ -4,26 +4,30 @@ Interface:
 
 
 Specs:
-    1.  Behavior: Method saves players' choices of rock/paper/scissor.
-        Input: 'rock' 'scissors'
-        Output: 'rock' 'scissors'
+    1.  Behavior: Method saves players 1 choice of rock/paper/scissor.
+        Input: 'rock'
+        Output: 'rock'
 
-    2.  Behavior: The method compares rock to scissors and chooses rock.
+    2.  Behavior: Method saves players 2 choice of rock/paper/scissor.
+        Input: 'scissors'
+        Output: 'scissors'
+
+    3.  Behavior: The method compares rock to scissors and chooses rock.
         Input: 'rock' 'scissors'
         Output: 'rock'
 
-    3.  Behavior: The method compares rock to paper and chooses paper.
+    4.  Behavior: The method compares rock to paper and chooses paper.
         Input: 'rock' 'paper'
         Output: 'paper'
 
-    4.  Behavior: The method compares paper to scissors and chooses scissors.
+    5.  Behavior: The method compares paper to scissors and chooses scissors.
         Input: 'paper' 'scissors'
         Output: 'scissors'
 
-    5.  Behavior: A new method checks player entries for a match, declares matching player the winner.
+    6.  Behavior: A new method checks player entries for a match, declares matching player the winner.
         Input: 'paper' 'scissors'
         Output: 'Player 2 Wins!'
 
-    6.  Behavior: If both players choose the same option, method declares the game a draw.
+    7.  Behavior: If both players choose the same option, method declares the game a draw.
         Input: 'paper' 'paper'
         Output: 'Draw. Try again!'
