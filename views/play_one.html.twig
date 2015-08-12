@@ -1,17 +1,39 @@
 <html>
     <head>
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
         <title>Rock Paper Scissors</title>
     </head>
     <body>
         <div class='container'>
             <h1>Play Rock Paper Scissors!</h1>
-            <h2>Player 1: Please select your weapon...</h2>
-            <form action='/player_two'>
-                <div class="checkbox">
-                    <label>
-                        <input type='checkbox'>Rock!
-                    </label>
-                    <label>
+            <form action='/winners'>
+                <h2>Player 1: Please select your weapon...</h2>
+                <div class='form-group'>
+                    <!-- <input name='player1' type='button' class='btn-default' value='rock'>
+                    <input name='player1' type='button' class='btn-success' value='paper'>
+                    <input name='player1' type='button' class='btn-danger' value='scissors'> -->
+                    <select name='player1'>
+                        <option value='rock'>ROCK</option>
+                        <option value='paper'>PAPER</option>
+                        <option value='scissors'>SCISSORS</option>
+                    </select>
+                </div>
+            <br><br>
+                <h2>Player 2: Pick your poison...</h2>
+                <div class='form-group'>
+                    <!-- <input name='player2' type='button' class='btn-default' value='rock'>
+                    <input name='player2' type='button' class='btn-success' value='paper'>
+                    <input name='player2' type='button' class='btn-danger' value='scissors'> -->
+                    <select name='player2'>
+                        <option value='rock'>ROCK</option>
+                        <option value='paper'>PAPER</option>
+                        <option value='scissors'>SCISSORS</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <button type="submit" class='btn-default'>Play!</button>
+            </form>
         </div>
     </body>
 </html>
