@@ -17,7 +17,6 @@
         $winner = new RockPaperScissors;
         $the_winner = $winner->playGame($_GET['player1'], $_GET['player2']);
         return $app['twig']->render('waiting.html.twig', array('output' => $the_winner));
-        // return $app['twig']->render('waiting.html.twig');
     });
 
     $app->get("/winners", function() use ($app) {
